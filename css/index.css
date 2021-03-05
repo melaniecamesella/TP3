@@ -1,4 +1,8 @@
-a {color: inherit;}
+a {
+  color: inherit;
+  display: inline-block;
+}
+
 
 .collections {
   background-color: #F4F4F4;
@@ -12,8 +16,9 @@ a {color: inherit;}
 .collections .flex {
   display: flex;
   padding: 40px 0;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .collections .flex .card-blog {
   width: 20%;
+  margin-right: 20px;
 }

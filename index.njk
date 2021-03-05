@@ -4,9 +4,20 @@ layout: layouts/base.njk
 
 <div class='collections'>
   <h1 class='collections-title'>Collections</h1>
-  {% include "components/button.njk" %}
-  {% include "components/button.njk" %}
+
+{% import "components/button.njk" as button %}
+{% import "components/card-blog.njk" as cardBlog %}
+{% import "components/card-pricing.njk" as cardPricing %}
+
+
+  {{ button.show('plop') }}
+  {{ button.show('see more') }}
+  {{ button.show('coucou') }}
+
   <div class='flex'>
-    {% include "components/card-blog.njk" %}
+   {{cardBlog.show('titre','See More')}}
+   {{cardPricing.show('titre')}}
+
   </div>
 </div>
+

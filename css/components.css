@@ -53,3 +53,50 @@
     font-size: 20px;
     margin-bottom: 75px;
 }
+
+/* CARD PRICING */
+.card-pricing{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card-pricing .card__img img {
+    width: 54px; height: 54px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+
+}
+
+.card-pricing .card__desc {
+    padding: 24px;
+    background-color: #fff;
+}
+.card-pricing .desc__title {
+    font-size: 20px;
+    margin-bottom: 75px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.card-pricing .liste_prices {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14;
+    font-weight: 400;
+    line-height: 34px;
+    
+}
+
+.button {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 16px;
+     
+}

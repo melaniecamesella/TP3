@@ -36,23 +36,7 @@
     text-align: center;
 }
 
-/* CARD BLOG */
-.card-blog .card__img {padding-top: 100%; position: relative;overflow: hidden;}
-.card-blog .card__img img {
-    position: absolute;    
-    top: 0 ; left: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.card-blog .card__desc {
-    padding: 24px;
-    background-color: #fff;
-}
-.card-blog .desc__title {
-    font-size: 20px;
-    margin-bottom: 75px;
-}
+
 
 /* CARD PRICING */
 .card-pricing{
@@ -61,14 +45,11 @@
     justify-content: center;
 }
 
-
-
 .card-pricing .card__img img {
     width: 54px; height: 54px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-
 }
 
 .card-pricing .card__desc {
@@ -99,4 +80,242 @@
     font-style: normal;
     line-height: 16px;
      
+}
+
+/* CARD BLOG */
+.card-blog .card__img {
+    padding-top: 100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.card-blog .card__img img {
+    position: absolute;    
+    top: 0 ; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card-blog .card__desc {
+    padding: 24px;
+    background-color: #fff;
+}
+.card-blog .desc__title {
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+
+
+/* CARD SQUARE */
+.card-square .card__img {
+    padding-top: 100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.card-square .card__img img {
+    position: absolute;    
+    top: 0 ; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-square .card__desc {
+    padding-top: 10px;
+    background-color: red;
+}
+
+.card-square .desc__title {
+    background-color: yellow;
+    margin-bottom: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: left;
+}
+
+.card-square .cta{
+    background-color: green;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px
+
+}
+
+
+/* CARD POST */
+
+.post {
+    padding-top: 56px;
+    background-color: #fff;
+    width: 370px; height: 600px;
+}
+
+
+.post .desc__title {
+    padding-left: 40px;
+    background-color: blue;
+    font-size: 56px;
+    width: 275px; height: 470px;
+    line-height: 68px;
+
+    text-align: left;
+    color:black;
+
+}
+
+
+/* CARD SLIDER */
+
+#slider {
+    background-image: url(../img/slider.png);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    background-color:#C6403F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-text{
+
+}
+
+
+
+/* CARD PRESENTATION */
+
+.card-presentation {
+    align-items: center;
+    background-color:#C6403F;
+	display:flex;
+    margin: 0 auto;
+
+}
+
+.card-presentation .card__img img {
+    width: 500px; height: 500px;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+    vertical-align: middle;
+    padding-left:50px;
+}
+
+.card-presentation .desc__presentation {
+float: right;
+padding: 50px;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+    background-color: yellow;
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+    vertical-align: top;
+}
+
+
+.footer-picto {
+    background-color:red ;
+    align-items: center;
+    width:50px;
+    margin-right: 5%;
+    display: inline-flex;
+}
+
+.footer-picto svg {
+    width:20px%;
+    fill: white;
+}
+
+.footer-picto svg:hover {
+    fill:#00F0FF;
+    transition: 0.5s;
+}
+
+
+
+
+#aplat {
+    width: 100%;
+    height: 300px;
+    background-color: #0576A3;
+    margin:0px;
+}
+
+#space {
+    widows: 80%;
+    padding-top: 2%;
+
+}
+#formulaire{
+    width: 50%;
+    float: left;
+    display: inline-flex;il
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    color: white;
+}
+
+legend{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: block;
+    width: 90px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 1vh;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    background-color: #E3F4FB;
+    border-style: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #ffffff;
+}
+
+
+.titre-information{
+    font-weight: 900;
+    color: white;
+
+}
+
+
+
+
+/* PARCOURS */ 
+
+.diplome-container {
+    width: 50%;
+    background-color: wheat;
+
+}
+
+.diplome-container:nth-child(even){
+    margin-left: auto;
 }

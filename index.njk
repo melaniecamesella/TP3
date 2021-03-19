@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 
-<div class='collections'>
+{# <div class='collections'>
   <h1 class='collections-title'>Collections</h1>
 
 {% import "components/button.njk" as button %}
@@ -19,5 +19,88 @@ layout: layouts/base.njk
    {{cardPricing.show('titre')}}
 
   </div>
+</div> #}
+
+
+{% import "components/button.njk" as button %}
+{% import "components/card-blog.njk" as cardBlog %}
+{% import "components/card-pricing.njk" as cardPricing %}
+{% import "components/card-square.njk" as cardSquare %}
+{% import "components/card-post.njk" as cardPost %}
+{% import "components/card-slider.njk" as cardSlider %}
+{% import "components/card-presentation.njk" as cardPresentation %}
+{% import "components/footer.njk" as footer %}
+
+
+
+
+
+
+<div class='flex slider'>
+  {{cardSlider.show('The best way to wireframe a website or landing page')}}
 </div>
 
+<div class='flex presentation'>
+  {{cardPresentation.show('Hello je suis melanie a website or landing page')}}
+</div>
+
+
+
+<h2> Parcours </h2>
+
+<div class='parcours'>
+
+<div class='diplome-container'>
+  <p class='diplome'>Master Design UX-UI</p>
+  <p class='descriptiondiplome'>Master Design UX-UI</p>
+</div>
+
+<div class='diplome-container'>
+  <p class='diplome'>Master Design UX-UI</p>
+  <p class='descriptiondiplome'>Master Design UX-UI</p>
+</div>
+
+<div class='diplome-container'>
+  <p class='diplome'>Master Design UX-UI</p>
+  <p class='descriptiondiplome'>Master Design UX-UI</p>
+</div>
+
+<div class='diplome-container'>
+  <p class='diplome'>Master Design UX-UI</p>
+  <p class='descriptiondiplome'>Master Design UX-UI</p>
+</div>
+
+</div>
+
+
+
+
+<div class='flex blog'>
+  {{cardBlog.show('Refonte Medexprim','medexprim.png')}}
+  {{cardBlog.show('Plaquette - VitaDrome','En savoir plus')}}
+  {{cardBlog.show('Jeu de cartes - Hive Connect','En savoir plus')}}
+  {{cardBlog.show('Interview - Hive Connect','En savoir plus')}}
+</div>
+
+{# <h2>  your Best Value Proposition </h2>
+<p class='text'>“If you don’t try this app, you won’t become the superhero you were meant to be”</p>
+
+<div class='flex square'>
+  {{cardSquare.show('Lorem ipsum dolor sit amet, consectetur adipiscing elit','Learn More')}}
+  {{cardSquare.show('Lorem ipsum dolor sit amet, consectetur adipiscing elit','Learn More')}}
+  {{cardSquare.show('Lorem ipsum dolor sit amet, consectetur adipiscing elit','Learn More')}}
+</div>
+
+
+<div class='flex post'>
+  {{cardPost.show('The best way to wireframe a website or landing page')}}
+</div>
+#}
+
+
+
+
+
+<div class='flex footer'>
+  {{footer.show('The best way to wireframe a website or landing page')}}
+</div>

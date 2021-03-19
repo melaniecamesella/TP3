@@ -1,12 +1,12 @@
-{% macro show(title,cta) %}
+{% macro show(title,nomimage) %}
 
 <div class='card-blog'>
     <div class='card__img'>
-        <img src='https://www.fillmurray.com/300/360' />
+        <img src='img/{{nomimage}}' />
     </div>
     <div class='card__desc'>
         <h2 class='desc__title'>{{title}}</h2>
-        <a class='cta cta--seemore'>{{cta}}</a>
+        <a class="nav-item button">En savoir plus</a>
     </div>
 </div>
 

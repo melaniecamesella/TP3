@@ -6,7 +6,7 @@
     padding: 20px 30px;
 }
 .site-header .nav {
-    display: flex;
+    display: flex; 
     align-items: center;
 }
 
@@ -26,7 +26,7 @@
 
 /* BOUTON */
 .button {
-    background: #000000;
+    background: #776871;
     border-radius: 5px;
     padding: 20px 0;
     color: #fff;
@@ -72,15 +72,6 @@
     
 }
 
-.button {
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 16px;
-     
-}
 
 /* CARD BLOG */
 .card-blog .card__img {
@@ -101,8 +92,10 @@
     background-color: #fff;
 }
 .card-blog .desc__title {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-bottom: 75px;
+    color: #776871;
 }
 
 
@@ -182,18 +175,21 @@
     background-size: cover;
     height: 450px;
     width: 100%;
-    background-color:#C6403F;
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: opacity(40%);
 
 }
 
 .slider-text{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     padding-right: 600px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: arial black;
+    text-align: center;
+    font-weight: 300;
+    color: #f0f7ee;
 
 }
 
@@ -352,11 +348,10 @@ padding: 50px;
  
 
 
- /* FOOTER 
+ /* FOOTER */
 
 
 .footer {
-    background-color: yellow;
     display:block;
     margin: 0 auto;
     width: 100%;
@@ -365,11 +360,11 @@ padding: 50px;
 
 
 .footer-picto {
-    background-color:red ;
     align-items: center;
     width:50px;
     margin-right: 5%;
     display: inline-flex;
+    padding: 30px;
 }
 
 .footer-picto svg {
@@ -378,17 +373,16 @@ padding: 50px;
 }
 
 .footer-picto svg:hover {
-    fill:#00F0FF;
+    fill:#B3A8AE;
     transition: 0.5s;
 }
 
 
 
-
 #aplat {
     width: 100%;
-    height: 300px;
-    background-color: #0576A3;
+    height: 350px;
+    background-color: #62555c;
     margin:0px;
 }
 
@@ -402,6 +396,7 @@ padding: 50px;
     float: left;
     display: inline-flex;il
 }
+
 form {
     margin: 0 auto;
     width: 400px;
@@ -409,7 +404,7 @@ form {
 }
 
 legend{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Times New Roman', Times, serif;    
     font-weight: 900;
 }
 
@@ -418,7 +413,6 @@ form div + div {
 }
 
 label {
-    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées 
     display: block;
     width: 90px;
     font-weight: 500;
@@ -444,4 +438,3 @@ input:focus, textarea:focus {
 
 }
 
-*/

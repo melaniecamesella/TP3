@@ -142,7 +142,12 @@
 
 /* CARD PRESENTATION */
 
+.pres {
+    align-items: center;
+    padding-bottom:50px;
+    vertical-align: -webkit-baseline-middle;
 
+}
 
 
 /* CARD POST */
@@ -233,7 +238,9 @@
 
 .card-presentation .desc__presentation {
     padding: 50px;
+    align-items: center;
 }
+
 
 
 
